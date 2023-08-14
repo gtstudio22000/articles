@@ -6,19 +6,24 @@ The Anypoint Platform designs, builds, and manages APIs with MuleSoft's API Mana
 
 In MuleSoft's API Manager, a "instance" is a deployed or operating API you've defined. Each instance may represent a particular API version or environment (development, testing, production).
 
-The API Manager lets you configure Anypoint Platform-deployed APIs. This allows:
+The API Manager lets us configure Anypoint Platform-deployed APIs. This allows:
 
-- Control Traffic—Throttling, rate limiting, and other policies can limit API calls and who can use them.
-- OAuth 2.0 policies can restrict API access to authorised applications and users.
-- Monitor and analyse - Anypoint Analytics lets you see how your API is utilised, check for issues, and improve performance.
-- Apply Policies—You can apply pre-built API policies to conduct typical API management tasks. You can also customise policies.
-- Versions and SLAs - Manage API versions and SLAs for consumer applications.
+- **Control Traffic—Throttling**, rate limiting, and other policies can limit API calls and who can use them.
+- **OAuth 2.0 policies** can restrict API access to authorised applications and users.
+- **Monitor and analyse** - Anypoint Analytics lets us see how our API is utilised, check for issues, and improve performance.
+- **Apply Policies**—We can apply pre-built API policies to conduct typical API management tasks. We can also customise policies.
+- **Versions and SLAs** - Manage API versions and SLAs for consumer applications.
+
 In essence, MuleSoft's API Manager represents a deployment of an API and provides tools to ensure its secure, efficient, and organizationally aligned use.
 
 # API Manager Instance
 
 The term "instance" in MuleSoft's API Manager refers to a specific deployment or operational version of an API.
-API Manager lets you manage System, Process, and Experience API settings and configurations. API Manager considers each API deployment a "instance".
+
+- API Manager lets you manage System, Process, and Experience API settings and configurations. 
+- API Manager considers each API deployment a "instance".
+
+Example:
 
 A System API deployed on the Anypoint Platform counts as one API Manager instance. Multiple versions or environments (e.g., dev, test, prod) of the same System API are usually considered separate instances in API Manager.
 
@@ -42,7 +47,7 @@ Multiple endpoints handle distinct actions, yet they're all part of the same API
 
 A vCore (virtual core) is a computational capacity unit used to measure and distribute resources to CloudHub apps and APIs in MuleSoft's Anypoint Platform.
 
-Your Mule application or API deployment to CloudHub specifies the number of vCores. The number of vCores you assign determines your application's computing power and memory. This lets you scale your app as needed.
+Our Mule application or API deployment to CloudHub specifies the number of vCores. The number of vCores we assign determines our application's computing power and memory. 
 
 Some MuleSoft vCores facts:
 
